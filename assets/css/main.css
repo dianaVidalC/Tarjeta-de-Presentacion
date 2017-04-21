@@ -80,6 +80,10 @@ header nav ul li a{
   font-family: roboto, serif;
 }
 
+fuente-titulo{
+  font-family: "Playfair Display", sans-serif;
+}
+
 .imagen1{
   width: 28em;
   background-position:-295px -446px;
@@ -100,8 +104,14 @@ figure{
 }
 .articulo1{
   position: absolute;
-  width: 40em;
+  width: 30em;
   background-color:#333340;
   left:0;
+  font-size: 20px;
+  color: #fff;
 
+}
+
+.articulos span{
+  color:#B3B3B3;
 }
