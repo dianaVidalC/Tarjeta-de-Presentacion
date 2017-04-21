@@ -1,0 +1,107 @@
+*{
+  margin:0;
+  padding: 0;
+}
+header{
+    background-color:#E00109;
+}
+header nav ul{
+  list-style-type: none;
+  margin-left: 20em;
+}
+header nav ul li{
+  float: left;
+}
+header nav ul li a{
+  padding: 10px 20px;
+  display: block;
+  color:#fff;
+  text-decoration: none;
+}
+
+.republica,
+.imagen1{
+  background-image: url("../img/spritesheet.png");
+  background-repeat: no-repeat;
+}
+.republica{
+  position: absolute;
+  height: 4em;
+  width: 18em;
+  background-position: 3px -441px;
+}
+
+.cabecera{
+  margin-left: 20em;
+  height: 4em;
+  left: 10em;
+  padding: 0.5em;
+}
+
+.menu{
+  background-color:#5C5C66;
+  height: 40px;
+  width: 100%
+}
+
+.iconos{
+  position: absolute;
+  display: inline-block;
+  color:#fff;
+  left: 52em;
+  top: 1.5em;
+  width: 10em;
+}
+
+.iconos span{
+  font-size: 2em;
+}
+
+.buscar{
+  position: absolute;
+  display: inline-block;
+  right: 20em;
+  top: 1.3em;
+  height: 1.5em;
+  width: 8em;
+  border:2px solid #fff;
+  border-radius: 8%;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.icon-search{
+  position: absolute;
+  right: 0;
+  top:0.3em;
+}
+
+.fuente{
+  font-family: roboto, serif;
+}
+
+.imagen1{
+  width: 28em;
+  background-position:-295px -446px;
+}
+
+.main{
+  position: relative;
+  margin-left: 20em;
+  height: 100em;
+  box-shadow: 10px 10px 10px -8px #5C5C66;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+figure{
+  width: 40em;
+  display: inline-block;
+}
+.articulo1{
+  position: absolute;
+  width: 40em;
+  background-color:#333340;
+  left:0;
+
+}
